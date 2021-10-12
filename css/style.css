@@ -1,0 +1,89 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Mar 9, 2018, 9:24:05 PM
+    Author     : CCIT
+*/
+body{
+    margin: 0px;
+    font-family: sans-serif;
+}
+#index-body{
+   background-image:linear-gradient(rgba(0, 0, 0, 0.62),rgba(0, 0, 0, 0.62)), url("../img/wallpapers.jpg");
+   background-size:cover;
+   font-family: sans-serif;
+   margin: 0px;
+   
+}
+#login-div{
+   background-color: white;
+   position: absolute;
+   left:59%;
+   top:20%;
+   padding: 50px;
+   border-radius: 20px;
+   margin: 50px;
+   
+}
+.login-lable{
+   font-size: 25px;
+   font-weight: bold;
+}
+.login-input{
+   height: 30px;
+   width:250px;
+   font-size: 25px;
+}
+.login-btn{
+   border: solid 0px;
+   background-color: #0076ff;
+   color: white;
+   font-size: 20px;
+   padding: 15px 25px;
+   margin:5px;
+   border-radius: 10px;
+   text-decoration: none;
+   width: 100px;
+}
+nav{
+   background-color: rgba(0, 134, 248, 0.83);
+   padding: 10px;
+   height: 60px;
+}
+#logo{
+   font-size: 30px;
+   color: white;
+   font-weight: bolder;
+   margin-left: 50px;
+   float: left;
+}
+ul{
+    list-style-type: none;
+    padding: 0px;
+    float: right;
+      
+}
+li{
+    display: inline-block;
+    color:#ddd7d7;
+    font-size: 20px;
+    margin-left: 10px;
+    text-transform: uppercase;
+}
+li:hover{
+    color: white;
+}
+#file-block{
+   display: inline-block;
+   box-shadow: 0px 0px 1px grey;
+   text-align: center;
+   padding: 10px;
+   margin: 10px;
+}
+#file-block img{
+   height: 100px;
+   width: 80px;
+}
